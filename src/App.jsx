@@ -3,7 +3,7 @@ import IconSwitch from "./components/IconSwitch";
 import CardsView from "./components/CardsView";
 import ListView from "./components/ListView";
 import { products } from "./data/products";
-import "./index.css";
+import "./App.css";
 
 function App() {
   const [view, setView] = useState("cards");
